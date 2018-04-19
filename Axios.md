@@ -1,3 +1,4 @@
+        ```javascript
         //两种发送POST请求的方式
         //方式一：发送URLSearchParams对象的数据
         let json = JSON.stringify(this.user);
@@ -17,3 +18,4 @@
             console.log(resp.data);
           }
         )
+        ```
